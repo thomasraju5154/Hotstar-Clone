@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: #000000e6;
+    opacity: 50%;
+    line-height: 60px;
+    /* background: linear-gradient(to right,black 80%, transparent 90%); */
+}
+
+.nav-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: 1rem 0 1rem 1rem #000000e6;
+    /* opacity: 50%; */
+    transition: 500ms;
+}
+
+.item {
+    position: relative;
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    transition: 500ms;
+}
+
+.item::after {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    font-size: 20px;
+    content: attr(data-label);
+    transform: translateX(-25%);
+    opacity: 0;
+    transition: 500ms;
+    top: 5%;
+    padding-left: 1rem;
+}
+
+.nav-items:hover .item::after {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.nav-items:hover {
+    box-shadow: 4rem 0 3rem 4rem;
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+.item:hover::after {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.front-page-main-div {
+    width: 100%;
+    height: 750px;
+    /* background-color: aquamarine; */
+    background-image: url("./images/bigboss.webp");
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.main-page-inside-div {
+    height: auto;
+    width: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: aquamarine; */
+    /* border: 1px solid black; */
+}
+
+.main-page-inside-div:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.biggboss-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.main-page-ua13-button {
+    height: 20px;
+    width: 80px;
+}
+
+/* first scroll pverflow  */
+
+.latest-relese {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    /* overflow-x: scroll; */
+    overflow-y: visible;
+    padding-left: 100px;
+    gap: 10px;
+    background-color: rgb(30, 30, 30);
+}
+
+.latest-release-div {
+    padding-left: 100px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+}
+
+.scoll-div-1 {
+    flex-shrink: 0;
+    /* padding-left: 100px; */
+    height: 230px;
+    width: 180px;
+    /* overflow: visible; */
+    border-radius: 6px;
+    border: 1px solid rgb(191, 184, 184);
+    transition-duration: .5s;
+    transform-origin: 0%;
+}
+.scoll-div-2to12 {
+    flex-shrink: 0;
+    /* padding-left: 100px; */
+    height: 230px;
+    width: 180px;
+    /* overflow: visible; */
+    border-radius: 6px;
+    border: 1px solid rgb(183, 179, 179);
+    transition-duration: .5s;
+    /* transform-origin: 0%; */
+}
+#latest-release-scroll-right-div-1:hover {
+    transform: scale(1.6);
+    /* background-color: aquamarine; */ 
+}
+/* #latest-release-scroll-right-div-1-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-1:hover .latest-release-scroll-right-image1 {
+    display: none;
+}
+#latest-release-scroll-right-div-1:hover .latest-release-scroll-right-image2 {
+    display: block;
+} */
+
+/* this is for adding content while scaling  */
+
+.latest-release-scroll-right-image2 {
+    object-fit: cover;
+    width: 178px;
+    height: 229px;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-div-1-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-1:hover .latest-release-scroll-right-image1 {
+    display: none;
+}
+#latest-release-scroll-right-div-1:hover .latest-release-scroll-right-div-1-inner-div {
+    display: block;
+}
+
+/* this is for adding content while scaling , up to this  */
+
+#latest-release-scroll-right-div-2:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-3:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-4:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-5:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-6:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-7:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-8:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-9:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-10:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-11:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+#latest-release-scroll-right-div-12:hover {
+    transform: scale(1.5);
+    /* background-color: aquamarine; */
+   
+}
+
+/* #div-1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+#inner {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 10;
+    transition-duration: .5s;
+}
+
+#inner:hover {
+    transform: scale(1.3);
+} */
+
+
+.latest-release-scroll-right-image1 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
