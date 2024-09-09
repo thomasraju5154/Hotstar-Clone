@@ -208,7 +208,49 @@ nav {
 
 /* this is for adding content while scaling  */
 
-.latest-release-scroll-right-image2 {
+.latest-release-scroll-right-image1-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image2-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image3-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image4-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image5-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image6-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image7-inside {
+    object-fit: cover;
+    width: 178px;
+    height:120px;
+    border-radius: 6px 6px 0px 0px;
+}
+.latest-release-scroll-right-image8-inside {
     object-fit: cover;
     width: 178px;
     height:120px;
@@ -245,6 +287,104 @@ nav {
     display: none;
 }
 #latest-release-scroll-right-div-1:hover .latest-release-scroll-right-div-1-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-2-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-2-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-2:hover .latest-release-scroll-right-image2 {
+    display: none;
+}
+#latest-release-scroll-right-div-2:hover .latest-release-scroll-right-div-2-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-3-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-3-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-3:hover .latest-release-scroll-right-image3 {
+    display: none;
+}
+#latest-release-scroll-right-div-3:hover .latest-release-scroll-right-div-3-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-4-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-4-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-4:hover .latest-release-scroll-right-image4 {
+    display: none;
+}
+#latest-release-scroll-right-div-4:hover .latest-release-scroll-right-div-4-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-5-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-5-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-5:hover .latest-release-scroll-right-image5 {
+    display: none;
+}
+#latest-release-scroll-right-div-5:hover .latest-release-scroll-right-div-5-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-6-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-6-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-6:hover .latest-release-scroll-right-image6 {
+    display: none;
+}
+#latest-release-scroll-right-div-6:hover .latest-release-scroll-right-div-6-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-7-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-7-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-7:hover .latest-release-scroll-right-image7 {
+    display: none;
+}
+#latest-release-scroll-right-div-7:hover .latest-release-scroll-right-div-7-inner-div {
+    display: block;
+}
+
+.latest-release-scroll-right-div-8-inner-div-part1 {
+    width: 100%;
+    height: 110px;
+}
+.latest-release-scroll-right-div-8-inner-div {
+    display: none;
+}
+#latest-release-scroll-right-div-8:hover .latest-release-scroll-right-image8 {
+    display: none;
+}
+#latest-release-scroll-right-div-8:hover .latest-release-scroll-right-div-8-inner-div {
     display: block;
 }
 
@@ -329,6 +469,48 @@ nav {
 
 
 .latest-release-scroll-right-image1 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image2 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image3 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image4 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image5 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image6 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image7 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 6px;
+}
+.latest-release-scroll-right-image8 {
     height: 100%;
     width: 100%;
     object-fit:cover;
